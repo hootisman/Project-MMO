@@ -34,7 +34,7 @@ public class PlayerTickHandler {
 
 	public static void handle(PlayerTickEvent event) {
 		ticksIgnoredSinceLastProcess++;
-		if (ticksIgnoredSinceLastProcess < 10) return;
+		if (ticksIgnoredSinceLastProcess < 100) return;
 		
 		Player player = event.player;
 		Core core = Core.get(event.side);

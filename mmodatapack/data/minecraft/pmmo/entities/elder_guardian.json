@@ -1,0 +1,16 @@
+{
+    "xp_values":{
+        "KILL":{
+            "attack":100
+        },
+        "MELEE_TO_MOBS": {
+            "attack":100
+        },
+        "RANGED_TO_MOBS":{
+            "ranged":100
+        }
+    },
+    "requirements":{
+        "KILL": {"attack": 0}
+    }
+}

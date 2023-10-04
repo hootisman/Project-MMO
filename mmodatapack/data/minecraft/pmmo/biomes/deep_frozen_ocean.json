@@ -1,0 +1,16 @@
+{
+    "bonus":{
+        "BIOME":{
+            "agility": 2.00,
+		    "fishing": 1.50
+        }
+    },
+    "negative_effect":{
+        "minecraft:slowness": 3,
+		"minecraft:weakness": 2
+    },
+    "travel_req":{
+        "agility": 35,
+		"defence": 25
+    }
+}

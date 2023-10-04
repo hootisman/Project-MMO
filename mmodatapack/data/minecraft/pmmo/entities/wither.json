@@ -1,0 +1,12 @@
+{
+    "xp_values":{
+        "KILL": {
+            "attack": 1000
+        }
+    },
+    "requirements": {
+        "KILL": {
+            "attack": 0
+        }
+    }
+}

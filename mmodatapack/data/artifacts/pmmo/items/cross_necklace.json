@@ -1,0 +1,73 @@
+{
+  "bonuses": {
+    "HELD": {},
+    "WORN": {}
+  },
+  "nbt_bonuses": {
+    "HELD": [],
+    "WORN": []
+  },
+  "salvage": {},
+  "vein_data": {
+    "chargeCap": 0,
+    "chargeRate": 0.0
+  },
+  "nbt_xp_values": {
+    "BREW": [],
+    "FISH": [],
+    "CRAFT": [],
+    "CONSUME": [],
+    "ACTIVATE_ITEM": [],
+    "ENCHANT": [],
+    "DEAL_DAMAGE": [],
+    "ANVIL_REPAIR": [],
+    "BLOCK_PLACE": [],
+    "SMELT": []
+  },
+  "dealt_damage_xp": {},
+  "received_damage_xp": {},
+  "nbt_requirements": {
+    "USE": [],
+    "BREAK": [],
+    "WEAPON": [],
+    "PLACE": [],
+    "WEAR": [],
+    "INTERACT": [],
+    "TOOL": [],
+    "USE_ENCHANTMENT": []
+  },
+  "negative_effect": {
+
+    "minecraft:weakness":3,
+    "minecraft:slowness":3,
+    "minecraft:mining_fatigue":3,
+    "minecraft:wither":1
+  },
+  "xp_values": {
+    "BREW": {},
+    "FISH": {},
+    "CRAFT": {},
+    "CONSUME": {},
+    "ACTIVATE_ITEM": {},
+    "ENCHANT": {},
+    "DEAL_DAMAGE": {},
+    "ANVIL_REPAIR": {},
+    "BLOCK_PLACE": {},
+    "SMELT": {}
+  },
+  "override": true,
+  "isTagFor": [],
+  "requirements": {
+    "USE": {},
+    "BREAK": {},
+    "WEAPON": {},
+    "PLACE": {},
+    "WEAR": {
+      "defence":30,
+      "charisma":60
+    },
+    "INTERACT": {},
+    "TOOL": {},
+    "USE_ENCHANTMENT": {}
+  }
+}

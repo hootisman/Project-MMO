@@ -13,13 +13,11 @@
     },
     "requirements":{
         "WEAR": {
-            "endurance": 10
+            "defence": 10
         }
     },
     "bonuses": {
-        "WORN": {
-            "mining": 1.25
-        }
+        "mining": 1.25
     },
     "negative_effect":{
         "minecraft:slowness":1,

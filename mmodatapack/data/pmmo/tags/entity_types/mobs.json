@@ -1,3 +1,6 @@
 {
-  "values": []
+  "replace":false,
+  "values": [
+    "artifacts:mimic"
+  ]
 }

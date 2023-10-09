@@ -13,13 +13,13 @@
     },
     "requirements":{
         "WEAR": {
-            "combat": 90
+            "attack": 90
         },
         "TOOL": {
             "farming": 60
         },
         "WEAPON": {
-            "combat": 90
+            "attack": 90
         }
     },
     "negative_effect":{

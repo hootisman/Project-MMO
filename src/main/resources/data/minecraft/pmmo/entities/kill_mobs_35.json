@@ -1,0 +1,20 @@
+{
+    "isTagFor": [
+        "minecraft:enderman",
+        "minecraft:vindicator"
+    ],
+    "xp_values":{
+        "KILL":{
+            "attack":35
+        },
+        "MELEE_TO_MOBS": {
+            "attack":35
+        },
+        "RANGED_TO_MOBS":{
+            "ranged":35
+        }
+    },
+    "requirements":{
+        "KILL": {"attack": 0}
+    }
+}

@@ -1,5 +1,4 @@
 {
-    "isTagFor":["#forge:ores/netherite_scrap"],
     "xp_values":{
         "SMELT": {
             "smithing": 2500

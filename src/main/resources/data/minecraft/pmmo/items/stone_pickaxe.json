@@ -19,7 +19,7 @@
             "mining": 10
         },
         "WEAPON": {
-            "combat": 10
+            "attack": 10
         }
     },
     "bonuses":{

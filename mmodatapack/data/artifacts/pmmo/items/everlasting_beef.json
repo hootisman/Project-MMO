@@ -47,7 +47,9 @@
     "DEAL_DAMAGE": {},
     "ANVIL_REPAIR": {},
     "BLOCK_PLACE": {},
-    "SMELT": {}
+    "SMELT": {
+      "cooking":8000
+    }
   },
   "override": true,
   "isTagFor": [],

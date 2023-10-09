@@ -19,7 +19,7 @@
             "mining": 90
         },
         "WEAPON": {
-            "combat": 60
+            "attack": 60
         }
     },
     "negative_effect":{

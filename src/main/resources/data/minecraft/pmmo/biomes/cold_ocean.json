@@ -1,7 +1,7 @@
 {
     "bonus":{
         "BIOME":{
-            "swimming": 1.50,
+            "agility": 1.50,
 		    "fishing": 1.30
         }
     },
@@ -10,7 +10,7 @@
 		"minecraft:weakness": 0
     },
     "travel_req":{
-        "swimming": 25,
-		"endurance": 15
+        "agility": 25,
+		"defence": 15
     }
 }

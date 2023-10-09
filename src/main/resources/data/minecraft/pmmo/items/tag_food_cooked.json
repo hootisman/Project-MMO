@@ -1,0 +1,32 @@
+{
+    "isTagFor": [
+        "minecraft:baked_potato",
+        "minecraft:beetroot_soup",
+        "minecraft:bread",
+        "minecraft:cooked_chicken",
+        "minecraft:cooked_cod",
+        "minecraft:cooked_mutton",
+        "minecraft:cooked_porkchop",
+        "minecraft:cooked_rabbit",
+        "minecraft:cooked_salmon",
+        "minecraft:cookie",
+        "minecraft:dried_kelp",
+        "minecraft:mushroom_stew",
+        "minecraft:pumpkin_pie",
+        "minecraft:rabbit_stew",
+        "minecraft:steak",
+        "minecraft:suspicious_stew"
+    ],
+    "xp_values": {
+        "CONSUME": {
+            "defence": 90,
+            "cooking": 100
+        },
+        "CRAFT": {
+            "cooking": 250
+        },
+        "FISH": {
+            "fishing": 100
+        }
+    }
+}

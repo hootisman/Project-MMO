@@ -13,18 +13,18 @@
     },
     "requirements":{
         "WEAR": {
-            "combat": 10
+            "attack": 10
         },
         "TOOL": {
             "farming": 10
         },
         "WEAPON": {
-            "combat": 10
+            "attack": 10
         }
     },
     "bonuses":{
         "HELD": {
-            "combat": 1.5
+            "attack": 1.5
         }
     },
     "negative_effect":{

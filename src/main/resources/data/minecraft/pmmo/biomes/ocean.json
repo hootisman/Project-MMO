@@ -1,7 +1,7 @@
 {
     "bonus":{
         "BIOME":{
-            "swimming": 1.25,
+            "agility": 1.25,
 		    "fishing": 1.10
         }
     }

@@ -13,18 +13,18 @@
     },
     "requirements":{
         "WEAR": {
-            "excavation": 10
+            "mining": 10
         },
         "TOOL": {
-            "excavation": 10
+            "mining": 10
         },
         "WEAPON": {
-            "combat": 10
+            "attack": 10
         }
     },
     "bonuses":{
         "HELD": {
-            "excavation": 1.5
+            "mining": 1.5
         }
     },
     "negative_effect":{

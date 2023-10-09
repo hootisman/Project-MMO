@@ -1,0 +1,74 @@
+{
+  "bonuses": {
+    "WORN": {},
+    "HELD": {}
+  },
+  "nbt_bonuses": {
+    "WORN": [],
+    "HELD": []
+  },
+  "salvage": {},
+  "vein_data": {
+    "chargeCap": 0,
+    "chargeRate": 0.0
+  },
+  "nbt_xp_values": {
+    "BREW": [],
+    "CONSUME": [],
+    "CRAFT": [],
+    "ENCHANT": [],
+    "FISH": [],
+    "DEAL_DAMAGE": [],
+    "SMELT": [],
+    "ANVIL_REPAIR": [],
+    "ACTIVATE_ITEM": [],
+    "BLOCK_PLACE": []
+  },
+  "dealt_damage_xp": {},
+  "received_damage_xp": {},
+  "nbt_requirements": {
+    "USE": [],
+    "WEAR": [],
+    "TOOL": [],
+    "USE_ENCHANTMENT": [],
+    "INTERACT": [],
+    "BREAK": [],
+    "PLACE": [],
+    "WEAPON": []
+  },
+  "negative_effect": {},
+  "xp_values": {
+    "BREW": {},
+    "CONSUME": {},
+    "CRAFT": {},
+    "ENCHANT": {},
+    "FISH": {},
+    "DEAL_DAMAGE": {},
+    "SMELT": {},
+    "ANVIL_REPAIR": {},
+    "ACTIVATE_ITEM": {},
+    "BLOCK_PLACE": {}
+  },
+  "override": false,
+  "isTagFor": [],
+  "requirements": {
+    "USE": {},
+    "WEAR": {
+      "mining":140,
+      "woodcutting":140,
+      "farming":140
+    },
+    "TOOL": {
+      "mining":140,
+      "woodcutting":140,
+      "farming":140
+    },
+    "USE_ENCHANTMENT": {},
+    "INTERACT": {},
+    "BREAK": {},
+    "PLACE": {},
+    "WEAPON": {
+      "attack":140
+    }
+  }
+}

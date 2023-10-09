@@ -1,7 +1,7 @@
 {
     "bonus":{
         "BIOME":{
-            "swimming": 1.50,
+            "agility": 1.50,
 		    "fishing": 1.20
         }
     },
@@ -9,6 +9,6 @@
         "minecraft:slowness": 0
     },
     "travel_req":{
-        "swimming": 15
+        "agility": 15
     }
 }

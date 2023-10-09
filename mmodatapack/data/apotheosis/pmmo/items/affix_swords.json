@@ -1,0 +1,83 @@
+{
+  "bonuses": {
+    "WORN": {},
+    "HELD": {}
+  },
+  "nbt_bonuses": {
+    "WORN": [],
+    "HELD": []
+  },
+  "salvage": {},
+  "vein_data": {
+    "chargeCap": 0,
+    "chargeRate": 0.0
+  },
+  "nbt_xp_values": {
+    "BREW": [],
+    "ENCHANT": [],
+    "BLOCK_PLACE": [],
+    "ACTIVATE_ITEM": [],
+    "CRAFT": [],
+    "DEAL_DAMAGE": [],
+    "ANVIL_REPAIR": [],
+    "CONSUME": [],
+    "SMELT": [],
+    "FISH": []
+  },
+  "dealt_damage_xp": {},
+  "received_damage_xp": {},
+  "nbt_requirements": {
+    "INTERACT": [],
+    "WEAPON": [
+      {
+        "behavior_to_previous": "ADD_TO", "should_cases_add": false,
+         "cases": [
+            {"paths":["affix_data{}.rarity"],
+             "criteria":[
+                {"operator":"EQUALS", "comparators":["apotheosis:common"], "value":{"magic":20, "attack":20}},
+                {"operator":"EQUALS", "comparators":["apotheosis:uncommon"], "value":{"magic":40 , "attack":40}},
+                {"operator":"EQUALS", "comparators":["apotheosis:rare"], "value":{"magic":60 , "attack":60}},
+                {"operator":"EQUALS", "comparators":["apotheosis:epic"], "value":{"magic":80, "attack":80}},
+                {"operator":"EQUALS", "comparators":["apotheosis:mythic"], "value":{"magic":90, "attack":90}},
+                {"operator":"EQUALS", "comparators":["apotheosis:ancient"], "value":{"magic":100, "attack":100}}
+             ]
+            }
+         ] 
+      }
+    ],
+    "USE_ENCHANTMENT": [],
+    "TOOL": [],
+    "PLACE": [],
+    "USE": [],
+    "BREAK": []
+  },
+  "negative_effect": {},
+  "xp_values": {
+    "BREW": {},
+    "ENCHANT": {},
+    "BLOCK_PLACE": {},
+    "ACTIVATE_ITEM": {},
+    "CRAFT": {},
+    "DEAL_DAMAGE": {},
+    "ANVIL_REPAIR": {},
+    "CONSUME": {},
+    "SMELT": {},
+    "FISH": {}
+  },
+  "override": false,
+  "isTagFor": [
+    "#forge:tools/swords",
+    "#forge:swords"
+
+  ],
+  "requirements": {
+    "INTERACT": {},
+    "WEAR": {},
+    "WEAPON": {},
+    "USE_ENCHANTMENT": {},
+    "TOOL": {},
+    "PLACE": {},
+    "USE": {},
+    "BREAK": {}
+  }
+}

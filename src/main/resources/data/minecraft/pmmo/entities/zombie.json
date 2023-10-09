@@ -1,0 +1,28 @@
+{
+    "isTagFor":[
+        "minecraft:zombie", 
+        "minecraft:zombie_villager", 
+        "minecraft:drowned", 
+        "minecraft:husk"
+    ],
+    "xp_values":{
+        "FROM_MOBS": {
+            "defence": 15
+        },
+        "MELEE_TO_MOBS": {
+            "attack": 15
+        },
+        "RANGED_TO_MOBS": {
+            "ranged": 15
+        },
+        "DEATH": {
+            "slayer": 100
+        },
+        "SHIELD_BLOCK": {
+            "attack": 25
+        }
+    },
+    "requirements":{
+        "KILL": {"attack": 0}
+    }
+}

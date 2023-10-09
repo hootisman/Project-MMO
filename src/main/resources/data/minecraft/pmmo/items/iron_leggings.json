@@ -13,7 +13,7 @@
     },
     "requirements":{
         "WEAR": {
-            "endurance": 30
+            "defence": 30
         }
     },
     "negative_effect":{

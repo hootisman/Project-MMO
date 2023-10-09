@@ -376,9 +376,9 @@ public class LangProvider extends LanguageProvider{
 			.addLocale(Locale.ZH_CN, "灵敏")
 			.addLocale(Locale.ZH_TW, "靈敏")
 			.addLocale(Locale.EN_US, "Agility").build();
-	public static final Translation SKILL_ENDURANCE = Translation.Builder.start("pmmo.endurance")
-			.addLocale(Locale.HU, "Endurance")
-			.addLocale(Locale.JA, "Endurance")
+	public static final Translation SKILL_ENDURANCE = Translation.Builder.start("pmmo.defence")
+			.addLocale(Locale.HU, "Defence")
+			.addLocale(Locale.JA, "Defence")
 			.addLocale(Locale.PL, "Wytrzymałość")
 			.addLocale(Locale.DE_DE, "Ausdauer")
 			.addLocale(Locale.ES_AR, "Aguante")
@@ -402,10 +402,10 @@ public class LangProvider extends LanguageProvider{
 			.addLocale(Locale.UK_UA, "Витривалість")
 			.addLocale(Locale.ZH_CN, "耐力")
 			.addLocale(Locale.ZH_TW, "耐力")
-			.addLocale(Locale.EN_US, "Endurance").build();
-	public static final Translation SKILL_COMBAT = Translation.Builder.start("pmmo.combat")
-			.addLocale(Locale.HU, "Combat")
-			.addLocale(Locale.JA, "Combat")
+			.addLocale(Locale.EN_US, "Defence").build();
+	public static final Translation SKILL_COMBAT = Translation.Builder.start("pmmo.attack")
+			.addLocale(Locale.HU, "Attack")
+			.addLocale(Locale.JA, "Attack")
 			.addLocale(Locale.PL, "Walka")
 			.addLocale(Locale.DE_DE, "Kampf")
 			.addLocale(Locale.ES_AR, "Combate")
@@ -429,10 +429,10 @@ public class LangProvider extends LanguageProvider{
 			.addLocale(Locale.UK_UA, "Бій")
 			.addLocale(Locale.ZH_CN, "战斗")
 			.addLocale(Locale.ZH_TW, "戰鬥")
-			.addLocale(Locale.EN_US, "Combat").build();
-	public static final Translation SKILL_ARCHERY = Translation.Builder.start("pmmo.archery")
-			.addLocale(Locale.HU, "Archery")
-			.addLocale(Locale.JA, "Archery")
+			.addLocale(Locale.EN_US, "Attack").build();
+	public static final Translation SKILL_ARCHERY = Translation.Builder.start("pmmo.ranged")
+			.addLocale(Locale.HU, "Ranged")
+			.addLocale(Locale.JA, "Ranged")
 			.addLocale(Locale.PL, "Łucznictwo")
 			.addLocale(Locale.DE_DE, "Bogenschießen")
 			.addLocale(Locale.ES_AR, "Arquería")
@@ -1163,8 +1163,8 @@ public class LangProvider extends LanguageProvider{
 			.addLocale(Locale.ZH_CN, "发明")
 			.addLocale(Locale.ZH_TW, "發明")
 			.addLocale(Locale.EN_US, "Invention").build();
-	public static final Translation SKILL_RUNECRAFTING = Translation.Builder.start("pmmo.runecrafting")
-			.addLocale(Locale.HU, "Runecrafting")
+	public static final Translation SKILL_RUNECRAFTING = Translation.Builder.start("pmmo.mysticcrafting")
+			.addLocale(Locale.HU, "Mystic Crafting")
 			.addLocale(Locale.JA, "Runecrafting")
 			.addLocale(Locale.PL, "Tworzenie run")
 			.addLocale(Locale.DE_DE, "Runenherstellung")
@@ -1189,7 +1189,7 @@ public class LangProvider extends LanguageProvider{
 			.addLocale(Locale.UK_UA, "Виготовлення рун")
 			.addLocale(Locale.ZH_CN, "制符")
 			.addLocale(Locale.ZH_TW, "製符")
-			.addLocale(Locale.EN_US, "Runecrafting").build();
+			.addLocale(Locale.EN_US, "Mystic Crafting").build();
 	public static final Translation SKILL_PRAYER = Translation.Builder.start("pmmo.prayer")
 			.addLocale(Locale.HU, "Prayer")
 			.addLocale(Locale.JA, "Prayer")
@@ -1298,8 +1298,8 @@ public class LangProvider extends LanguageProvider{
 			.addLocale(Locale.ZH_CN, "挂机")
 			.addLocale(Locale.ZH_TW, "掛機")
 			.addLocale(Locale.EN_US, "Afking").build();
-	public static final Translation SKILL_TRADING = Translation.Builder.start("pmmo.trading")
-			.addLocale(Locale.HU, "Trading")
+	public static final Translation SKILL_TRADING = Translation.Builder.start("pmmo.charisma")
+			.addLocale(Locale.HU, "Charisma")
 			.addLocale(Locale.JA, "Trading")
 			.addLocale(Locale.PL, "Handel")
 			.addLocale(Locale.DE_DE, "Handeln")
@@ -1324,9 +1324,9 @@ public class LangProvider extends LanguageProvider{
 			.addLocale(Locale.UK_UA, "Торгівля")
 			.addLocale(Locale.ZH_CN, "贸易")
 			.addLocale(Locale.ZH_TW, "貿易")
-			.addLocale(Locale.EN_US, "Trading").build();
-	public static final Translation SKILL_SAILING = Translation.Builder.start("pmmo.sailing")
-			.addLocale(Locale.HU, "Sailing")
+			.addLocale(Locale.EN_US, "Charisma").build();
+	public static final Translation SKILL_SAILING = Translation.Builder.start("pmmo.navigation")
+			.addLocale(Locale.HU, "Navigation")
 			.addLocale(Locale.JA, "Sailing")
 			.addLocale(Locale.PL, "Żeglarstwo")
 			.addLocale(Locale.DE_DE, "Segeln")
@@ -1351,7 +1351,7 @@ public class LangProvider extends LanguageProvider{
 			.addLocale(Locale.UK_UA, "Мореплавство")
 			.addLocale(Locale.ZH_CN, "航海")
 			.addLocale(Locale.ZH_TW, "航海")
-			.addLocale(Locale.EN_US, "Sailing").build();
+			.addLocale(Locale.EN_US, "Navigation").build();
 	public static final Translation SKILL_ALCHEMY = Translation.Builder.start("pmmo.alchemy")
 			.addLocale(Locale.HU, "Alchemy")
 			.addLocale(Locale.JA, "Alchemy")
@@ -1406,7 +1406,7 @@ public class LangProvider extends LanguageProvider{
 			.addLocale(Locale.ZH_CN, "建造")
 			.addLocale(Locale.ZH_TW, "建造")
 			.addLocale(Locale.EN_US, "Construction").build();
-	public static final Translation SKILL_LEATHERWORKING = Translation.Builder.start("pmmo.leatherworking")
+	public static final Translation SKILL_LEATHERWORKING = Translation.Builder.start("pmmo.stealth")
 			.addLocale(Locale.HU, "Leatherworking")
 			.addLocale(Locale.JA, "Leatherworking")
 			.addLocale(Locale.PL, "Obróbka skóry")
@@ -1432,7 +1432,7 @@ public class LangProvider extends LanguageProvider{
 			.addLocale(Locale.UK_UA, "Обробка шкіри")
 			.addLocale(Locale.ZH_CN, "制皮")
 			.addLocale(Locale.ZH_TW, "製皮")
-			.addLocale(Locale.EN_US, "Leatherworking").build();
+			.addLocale(Locale.EN_US, "Stealth").build();
 	public static final Translation SKILL_EXPLORATION = Translation.Builder.start("pmmo.exploration")
 			.addLocale(Locale.HU, "Exploration")
 			.addLocale(Locale.JA, "Exploration")

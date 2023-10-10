@@ -30,31 +30,45 @@ import net.minecraftforge.fml.LogicalSide;
 public class PlayerTickHandler {
 	private static final Map<UUID, Integer> airLast = new HashMap<>();
 	private static final Map<UUID, Float> healthLast = new HashMap<>();
-	private static short ticksIgnoredSinceLastProcess = 0;
+	private static short skillGainTicks = 0;
+	private static short effectChangeTicks = 0;
 
 	public static void handle(PlayerTickEvent event) {
-		ticksIgnoredSinceLastProcess++;
-		if (ticksIgnoredSinceLastProcess < 100) return;
-		
+		skillGainTicks++;
+		effectChangeTicks++;
+
+		if (effectChangeTicks > 10){
+			Player player = event.player;
+			Core core = Core.get(event.side);
+
+			//Recharge vein items
+			if (player instanceof ServerPlayer) {
+				VeinMiningLogic.regenerateVein((ServerPlayer) player);
+				//Apply positive and negative effects based on biome and items worn
+				EffectManager.applyEffects(core, player);
+			}
+
+			if (!airLast.containsKey(player.getUUID()))
+				airLast.put(player.getUUID(), player.getAirSupply());
+			if (!healthLast.containsKey(player.getUUID()))
+				healthLast.put(player.getUUID(), player.getHealth());
+
+			if (player.getAirSupply() != airLast.getOrDefault(player.getUUID(), 0))
+				processEvent(EventType.BREATH_CHANGE, core, event);
+			if (player.getHealth() != healthLast.getOrDefault(player.getUUID(), 0f))
+				processEvent(EventType.HEALTH_CHANGE, core, event);
+
+			//update tracker variables
+			airLast.put(player.getUUID(), player.getAirSupply());
+			healthLast.put(player.getUUID(), player.getHealth());
+			effectChangeTicks = 0;
+		}
+
+		if (skillGainTicks < 140) return;
+
 		Player player = event.player;
 		Core core = Core.get(event.side);
 
-		//Recharge vein items
-		if (player instanceof ServerPlayer) {
-			VeinMiningLogic.regenerateVein((ServerPlayer)player);
-			//Apply positive and negative effects based on biome and items worn
-			EffectManager.applyEffects(core, player);
-		}
-		
-		if (!airLast.containsKey(player.getUUID()))
-			airLast.put(player.getUUID(), player.getAirSupply());
-		if (!healthLast.containsKey(player.getUUID()))
-			healthLast.put(player.getUUID(), player.getHealth());
-		
-		if (player.getAirSupply() != airLast.getOrDefault(player.getUUID(), 0))
-			processEvent(EventType.BREATH_CHANGE, core, event);
-		if (player.getHealth() != healthLast.getOrDefault(player.getUUID(), 0f))
-			processEvent(EventType.HEALTH_CHANGE, core, event);
 		if (player.isPassenger())
 			processEvent(EventType.RIDING, core, event);
 		if (!player.getActiveEffects().isEmpty())
@@ -81,10 +95,7 @@ public class PlayerTickHandler {
 		else if (player.isCrouching())
 			processEvent(EventType.CROUCH, core, event);
 		
-		//update tracker variables
-		airLast.put(player.getUUID(), player.getAirSupply());
-		healthLast.put(player.getUUID(), player.getHealth());
-		ticksIgnoredSinceLastProcess = 0;
+		skillGainTicks = 0;
 	}
 	
 	private static void processEvent(EventType type, Core core, PlayerTickEvent event) {

@@ -75,8 +75,10 @@ public class EventHandler {
 	}
 	@SubscribeEvent
 	public static void onRespawn(PlayerRespawnEvent event) {
-		Core core = Core.get(event.getEntity().level()); 
-		core.getPerkRegistry().executePerk(EventType.SKILL_UP, event.getEntity(), new CompoundTag());
+		//firework bug; change new COmpoundtag to firework tag?
+
+//		Core core = Core.get(event.getEntity().level());
+//		core.getPerkRegistry().executePerk(EventType.SKILL_UP, event.getEntity(), new CompoundTag());
 	}
 	@SubscribeEvent(priority=EventPriority.LOWEST)
 	public static void onSleep(SleepFinishedTimeEvent event) {

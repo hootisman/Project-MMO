@@ -1,5 +1,6 @@
 package harmonised.pmmo;
 
+import harmonised.pmmo.registry.SoundRegistry;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
@@ -30,6 +31,8 @@ public class ProjectMMO {
     	
     	GLMRegistry.CONDITIONS.register(FMLJavaModLoadingContext.get().getModEventBus());
     	GLMRegistry.GLM.register(FMLJavaModLoadingContext.get().getModEventBus());
+		SoundRegistry.SOUND_EVENTS.register(FMLJavaModLoadingContext.get().getModEventBus());
+
 
     	FMLJavaModLoadingContext.get().getModEventBus().addListener(CommonSetup::init);
     	FMLJavaModLoadingContext.get().getModEventBus().addListener(CommonSetup::onCapabilityRegister);

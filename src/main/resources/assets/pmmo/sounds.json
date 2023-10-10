@@ -1,0 +1,140 @@
+{
+  "agility_1": {
+    "sounds": [ "pmmo:agility_1"]
+  },
+  "agility_2": {
+    "sounds": [ "pmmo:agility_2"]
+  },
+  "alchemy_1": {
+    "sounds": [ "pmmo:alchemy_1"]
+  },
+  "alchemy_2": {
+    "sounds": [ "pmmo:alchemy_2"]
+  },
+  "attack_1": {
+    "sounds": [ "pmmo:attack_1"]
+  },
+  "attack_2": {
+    "sounds": [ "pmmo:attack_2"]
+  },
+  "building_1": {
+    "sounds": [ "pmmo:building_1"]
+  },
+  "building_2": {
+    "sounds": [ "pmmo:building_2"]
+  },
+  "charisma_1": {
+    "sounds": [ "pmmo:charisma_1"]
+  },
+  "charisma_2": {
+    "sounds": [ "pmmo:charisma_2"]
+  },
+  "cooking_1": {
+    "sounds": [ "pmmo:cooking_1"]
+  },
+  "cooking_2": {
+    "sounds": [ "pmmo:cooking_2"]
+  },
+  "crafting_1": {
+    "sounds": [ "pmmo:crafting_1"]
+  },
+  "crafting_2": {
+    "sounds": [ "pmmo:crafting_2"]
+  },
+  "defence_1": {
+    "sounds": [ "pmmo:defence_1"]
+  },
+  "defence_2": {
+    "sounds": [ "pmmo:defence_2"]
+  },
+  "engineering_1": {
+    "sounds": [ "pmmo:engineering_1"]
+  },
+  "engineering_2": {
+    "sounds": [ "pmmo:engineering_2"]
+  },
+  "farming_1": {
+    "sounds": [ "pmmo:farming_1"]
+  },
+  "farming_2": {
+    "sounds": [ "pmmo:farming_2"]
+  },
+  "fishing_1": {
+    "sounds": [ "pmmo:fishing_1"]
+  },
+  "fishing_2": {
+    "sounds": [ "pmmo:fishing_2"]
+  },
+  "flying_1": {
+    "sounds": [ "pmmo:flying_1"]
+  },
+  "flying_2": {
+    "sounds": [ "pmmo:flying_2"]
+  },
+  "hunter_1": {
+    "sounds": [ "pmmo:hunter_1"]
+  },
+  "hunter_2": {
+    "sounds": [ "pmmo:hunter_2"]
+  },
+  "magic_1": {
+    "sounds": [ "pmmo:magic_1"]
+  },
+  "magic_2": {
+    "sounds": [ "pmmo:magic_2"]
+  },
+  "mining_1": {
+    "sounds": [ "pmmo:mining_1"]
+  },
+  "mining_2": {
+    "sounds": [ "pmmo:mining_2"]
+  },
+  "mysticcrafting_1": {
+    "sounds": [ "pmmo:mysticcrafting_1"]
+  },
+  "mysticcrafting_2": {
+    "sounds": [ "pmmo:mysticcrafting_2"]
+  },
+  "navigation_1": {
+    "sounds": [ "pmmo:navigation_1"]
+  },
+  "navigation_2": {
+    "sounds": [ "pmmo:navigation_2"]
+  },
+  "ranged_1": {
+    "sounds": [ "pmmo:ranged_1"]
+  },
+  "ranged_2": {
+    "sounds": [ "pmmo:ranged_2"]
+  },
+  "slayer_1": {
+    "sounds": [ "pmmo:slayer_1"]
+  },
+  "slayer_2": {
+    "sounds": [ "pmmo:slayer_2"]
+  },
+  "smithing_1": {
+    "sounds": [ "pmmo:smithing_1"]
+  },
+  "smithing_2": {
+    "sounds": [ "pmmo:smithing_2"]
+  },
+  "stealth_1": {
+    "sounds": [ "pmmo:stealth_1"]
+  },
+  "stealth_2": {
+    "sounds": [ "pmmo:stealth_2"]
+  },
+  "taming_1": {
+    "sounds": [ "pmmo:taming_1"]
+  },
+  "taming_2": {
+    "sounds": [ "pmmo:taming_2"]
+  },
+  "woodcutting_1": {
+    "sounds": [ "pmmo:woodcutting_1"]
+  },
+  "woodcutting_2": {
+    "sounds": [ "pmmo:woodcutting_2"]
+  }
+}

@@ -3,6 +3,8 @@ package harmonised.pmmo.api.perks;
 import java.util.List;
 import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
+
+import harmonised.pmmo.util.MsLoggy;
 import org.apache.commons.lang3.function.TriFunction;
 
 import harmonised.pmmo.api.APIUtils;
